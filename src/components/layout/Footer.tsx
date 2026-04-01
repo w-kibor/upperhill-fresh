@@ -23,7 +23,7 @@ export function Footer() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
               </span>
-              <p className="text-white font-semibold tracking-wide text-sm">Accepting Orders</p>
+              <p className="text-white font-semibold tracking-wide text-sm">Fresh juice made daily</p>
             </div>
             <p className="text-slate-400 font-medium">Upper Hill, Nairobi | <span className="text-white">+254 712 345 678</span></p>
           </div>
