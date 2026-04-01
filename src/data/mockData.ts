@@ -36,9 +36,3 @@ export const products = [
     description: 'Blend of tropical fruits'
   }
 ];
-
-export const mockOrders = [
-  { id: 1, customer: 'Jane Doe', office: 'CBA Towers', item: 'Mango Juice x2', amount: 'KSh 300', date: '2025-10-11' },
-  { id: 2, customer: 'John Smith', office: 'Britam Centre', item: 'Fruit Salad x1', amount: 'KSh 200', date: '2025-10-11' },
-  { id: 3, customer: 'Mary Wanjiru', office: 'Upper Hill Court', item: 'Passion Juice x3', amount: 'KSh 390', date: '2025-10-10' },
-];

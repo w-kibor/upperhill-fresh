@@ -24,7 +24,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center gap-1 lg:gap-2 bg-slate-50/50 px-2 py-1 rounded-full border border-slate-200/50 shadow-inner">
-            {['Home', 'About', 'Menu', 'Orders', 'Contact'].map((item) => (
+            {['Home', 'About', 'Menu', 'Contact'].map((item) => (
               <button 
                 key={item}
                 onClick={() => handleScroll(item === 'Menu' ? 'products' : item.toLowerCase())} 
@@ -48,7 +48,7 @@ export function Navbar() {
 
         {isMenuOpen && (
           <div className="md:hidden mt-4 p-4 flex flex-col gap-2 animate-in fade-in slide-in-from-top-4 bg-white/90 rounded-3xl border border-white shadow-2xl backdrop-blur-xl relative z-40">
-            {['Home', 'About', 'Menu', 'Orders', 'Contact'].map((item) => (
+            {['Home', 'About', 'Menu', 'Contact'].map((item) => (
               <button 
                 key={item}
                 onClick={() => handleScroll(item === 'Menu' ? 'products' : item.toLowerCase())} 

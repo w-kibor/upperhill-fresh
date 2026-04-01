@@ -3,7 +3,6 @@ import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
 import { MenuSection } from './components/sections/MenuSection';
-import { Orders } from './components/sections/Orders';
 import { Contact } from './components/sections/Contact';
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
         <Hero />
         <About />
         <MenuSection />
-        <Orders />
         <Contact />
       </main>
 
